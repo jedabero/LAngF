@@ -5,7 +5,9 @@
 	"license": "MIT",
 	"require": {
 		"laravel/framework": "4.2.*",
-		"zurb/foundation": "~5.5"
+		"zurb/foundation": "~5.5",
+        "fzaninotto/faker": "1.5.*@dev",
+		"barryvdh/laravel-ide-helper": "~1.11"
 	},
 	"autoload": {
 		"classmap": [
@@ -24,6 +26,7 @@
 		],
 		"post-update-cmd": [
 			"php artisan clear-compiled",
+            "php artisan ide-helper:generate",
 			"php artisan optimize"
 		],
 		"post-create-project-cmd": [
