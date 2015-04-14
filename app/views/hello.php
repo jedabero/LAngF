@@ -3,6 +3,11 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Laravel + Angular JS + Foundation</title>
+
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/foundation/5.5.1/css/foundation.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.ttf">
+
 	<style>
 		@import url(//fonts.googleapis.com/css?family=Lato:700);
 
