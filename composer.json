@@ -9,6 +9,9 @@
         "fzaninotto/faker": "1.5.*@dev",
 		"barryvdh/laravel-ide-helper": "~1.11"
 	},
+    "require-dev": {
+      "way/generators": "~2.0"
+    },
 	"autoload": {
 		"classmap": [
 			"app/commands",
