@@ -3,6 +3,7 @@
 This project is an idea that's been stuck in my head for the last year.
 
 Laravel as a json API backend.
+
 AngularJS + Foundation as the frontend.
 
 
